@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+body{
+  background-image: url(https://images.pexels.com/photos/1183099/pexels-photo-1183099.jpeg?cs=srgb&dl=pexels-8moments-1183099.jpg&fm=jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+}
+
+
+.wrapper-weather{
+  width: 600px;
+  background-color: rgba(56, 54, 54, 0.4);
+  border-radius: 20px;
+  padding: 50px 10px;
+  transition: 1.5s;
+  height: 150px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  
+}
+
+.wrapper-input input{
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+  height: 44px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  padding: 20px;
+  opacity: 0.4;
+}
+
+.wrapper-input{
+  position: relative;
+}
+button{
+  position: absolute;
+  padding: 10px;
+  top: 2px;
+  right: 7%;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+#harorat{
+  color: white;
+}
+#img{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 5px;
+  padding-left: 150px;
+}
+#eror{
+  color: white;
+}
